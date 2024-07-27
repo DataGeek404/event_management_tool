@@ -20,3 +20,12 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/DataGeek404/event_manager.git
    cd event_manager
+
+2. Create and activate a virtual environment:
+   # On Windows
+python -m venv env
+.\env\Scripts\activate
+
+# On Unix or MacOS
+python3 -m venv env
+source env/bin/activate
